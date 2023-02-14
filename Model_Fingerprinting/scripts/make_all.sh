@@ -54,7 +54,7 @@ for i in "${programs[@]}"; do
 	echo "Avg Runtime: $avg (s)"
 	echo "---------------------"
 	
-	averages+= ( "$avg" )
+	averages+= '( "$avg" )'
 	unset run_cmd[-1]
 
 done
